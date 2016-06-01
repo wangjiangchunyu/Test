@@ -41,6 +41,7 @@ typedef enum:NSInteger {
         modelData.width = arc4random()%200+200;
         modelData.height = arc4random()%200+300;
         [_modelDataArr addObject:modelData];
+        NSLog(@"23456789");
     }
     _dataArr = [NSMutableArray arrayWithObjects:[NSMutableArray array],[NSMutableArray array], nil];
 }
